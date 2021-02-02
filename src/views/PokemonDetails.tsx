@@ -18,7 +18,7 @@ const PokemonDetails = () => {
       onClick={() => history.push(`/`)}
       style={{ maxWidth: 600, margin: "0 auto" }}
     >
-      <img src={pokemon?.avatar} />
+      <img alt={pokemon?.name} src={pokemon?.avatar} />
       <h2>
         #{pokemon?.number} <br /> {pokemon?.name}
       </h2>
