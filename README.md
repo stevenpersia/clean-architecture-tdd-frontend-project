@@ -1,6 +1,6 @@
 # Clean architecture + TDD on front end project
 
-I've tried **TDD** with **Clean architecture** implementation in frontend side. It can run either with **InMemory** data or with data from **PokeApi** (rest API). It works with **React** but strength of this concept is to easily change framework and sources (database, ...). So if you fork it, you can add **VueJS** or **AngularJS** without any issues and without touch of core logic.
+I've tried **TDD** with **Clean architecture** implementation in frontend side. It can run either with **InMemory** data or with data from **PokeApi** (rest API). It works with **React** but strength of this concept is to easily change framework and sources (database, ...). So if you fork it, you can add **VueJS** or **AngularJS** without any issues and without touching of core logic.
 
 **All core logic is completely independent from data source and framework.**
 
