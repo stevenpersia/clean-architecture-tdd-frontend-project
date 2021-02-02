@@ -10,7 +10,7 @@ const PokemonDetails = () => {
 
   useEffect(() => {
     pokemonHandler.get(number).subscribe((pokemon) => setPokemon(pokemon));
-  }, []);
+  }, [number]);
 
   return (
     <div
